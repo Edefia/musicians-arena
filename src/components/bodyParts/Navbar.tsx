@@ -25,13 +25,14 @@ function Navbar({ className }: { className?: string }) {
     >
       <Menu setActive={setActive}>
       <div>
+        {/* Edit the Title(MUSICIANS ARENA) */}
         <h1 className="text-2xl sm:text-1xl font-bold   underline-offset-8  text-white">
           Musicians Arena
         </h1>
       </div>
 
-        <div className="flex gap-6">
-          {/* edit  */}
+        <div className="flex gap-6 ">
+          
         {/* <MenuItem setActive={setActive} active={active} item="Lessons">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
@@ -56,6 +57,8 @@ function Navbar({ className }: { className?: string }) {
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI" />
           </div>
         </MenuItem> */}
+
+        {/* edit the nav links */}
         <MenuItem setActive={setActive} active={active} item="Instrumentalist">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Drummers</HoveredLink>
